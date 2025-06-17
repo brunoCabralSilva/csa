@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div className="w-full h-full pt-10 p-3 sm:p-10">
-      <div className="font-bold sm:py-5 text-2xl sm:text-4xl">
+      <div className="font-bold sm:py-5 text-2xl sm:text-4xl w-full text-center sm:text-left">
         CSA Actual Exam Questions
       </div>
       {
