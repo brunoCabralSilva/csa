@@ -15,11 +15,16 @@ export default function Question(props: { question: IQuestion }) {
   }, []);
 
   const updateOption = (option: string) => {
-    if (question.correctAnswer.length === 1) setAlternative([option]);
-    else {
-      if (alternative.find((alt: string) => alt === option)) {
-        setAlternative(alternative.filter((alt: string) => alt !== option));
-      } else setAlternative([...alternative, option]);
+    if (showResponse) {
+      setShowResponse(false);
+      setAlternative([]);
+    } else {
+      if (question.correctAnswer.length === 1) setAlternative([option]);
+      else {
+        if (alternative.find((alt: string) => alt === option)) {
+          setAlternative(alternative.filter((alt: string) => alt !== option));
+        } else setAlternative([...alternative, option]);
+      }
     }
   }
 
