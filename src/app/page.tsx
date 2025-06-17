@@ -19,7 +19,7 @@ export default function Home() {
       {
         listQuestions.map((question: IQuestion, index: number) => (
           <div key={ index }>
-            <Question question={ question } />
+            <Question question={ question } number={ index } />
           </div>
         ))
       }

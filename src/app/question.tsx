@@ -2,13 +2,14 @@
 import { useEffect, useState } from "react";
 import IQuestion from "./interfaces";
 
-export default function Question(props: { question: IQuestion }) {
+export default function Question(props: { question: IQuestion, number: number }) {
+  const { question, number } = props;
+  
   const [alternative, setAlternative] = useState<string[]>([]);
   const [optionList, setOptionList] = useState<string[]>([]);
   const [corrects, setCorrects] = useState<string[]>([]);
   const [errors, setErrors] = useState<string[]>([]);
   const [showResponse, setShowResponse] = useState<boolean>(false);
-  const { question } = props;
 
   useEffect(() => {
     setOptionList(question.options.sort(() => Math.random() - 0.5));
@@ -40,7 +41,8 @@ export default function Question(props: { question: IQuestion }) {
 
   return(
     <div className="my-5 border-black dark:border-white border p-4 sm:p-5">
-      <p className="font-bold mb-5">{ question.text }</p>
+
+      <p className="font-bold mb-5">{ number + 1 }. { question.text }</p>
       <ul className="flex flex-col gap-2">
         { 
           optionList.map((option: string, index: number) => (
