@@ -39,7 +39,7 @@ export default function Question(props: { question: IQuestion }) {
   }
 
   return(
-    <div className="my-5 border-black dark:border-white border p-3 sm:p-5">
+    <div className="my-5 border-black dark:border-white border p-4 sm:p-5">
       <p className="font-bold mb-5">{ question.text }</p>
       <ul className="flex flex-col gap-2">
         { 
