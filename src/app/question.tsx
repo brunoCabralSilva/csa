@@ -35,7 +35,7 @@ export default function Question(props: { question: IQuestion }) {
   }
 
   return(
-    <div className="my-5 border-black border p-3 sm:p-5">
+    <div className="my-5 border-black dark:border-white border p-3 sm:p-5">
       <p className="font-bold mb-5">{ question.text }</p>
       <ul className="flex flex-col gap-2">
         { 
@@ -43,9 +43,9 @@ export default function Question(props: { question: IQuestion }) {
             <li
               key={ index }
               onClick={ () => updateOption(option) }
-              className={ `cursor-pointer p-3 rounded flex gap-2 items-start ${ alternative.find((op: string) => op === option) ? 'border border-black shadow-lg': 'border-gray-400 border' } ${showResponse && corrects.find((alt: string) => alt === option) ? 'bg-green-200': ''} ${showResponse && errors.find((alt: string) => alt === option) ? 'bg-red-200': '' } ${showResponse && question.correctAnswer.find((alt: string) => alt === option) ? 'bg-green-200': '' }` }
+              className={ `dark:border-white cursor-pointer p-3 rounded flex gap-2 items-start ${ alternative.find((op: string) => op === option) ? 'border border-black shadow-lg': 'border-gray-400 border' } ${showResponse && corrects.find((alt: string) => alt === option) ? 'bg-green-200 dark:bg-green-900': ''} ${showResponse && errors.find((alt: string) => alt === option) ? 'bg-red-200 dark:bg-red-900': '' } ${showResponse && question.correctAnswer.find((alt: string) => alt === option) ? 'bg-green-200 dark:bg-green-900': '' }` }
             >
-              <div className={`w-5 h-5 flex items-center justify-center border border-black ${question.correctAnswer.length === 1 ? 'rounded-full' : ''}`}>
+              <div className={`w-5 h-5 flex items-center justify-center border border-black dark:bg-white  ${question.correctAnswer.length === 1 ? 'rounded-full' : ''}`}>
                 {
                   question.correctAnswer.length > 1 
                   ? <div className={`w-3 h-3 ${alternative.find((op: string) => op === option) ? 'bg-black': '' }`} />
@@ -62,7 +62,7 @@ export default function Question(props: { question: IQuestion }) {
         <button
           type="button"
           onClick={ revealSolution }
-          className="mt-5 border border-black p-2 rounded cursor-pointer"
+          className="mt-5 border dark:border-white dark:bg-white dark:text-black border-black p-2 rounded cursor-pointer font-bold"
         >
           { !showResponse ? 'Reveal Solution': 'Hide Solution' }
         </button>
