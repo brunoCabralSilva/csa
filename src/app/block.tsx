@@ -3,7 +3,7 @@ import IQuestion from "./interfaces";
 import Question from "./question";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
-export default function Block(props: { chunk: any, chunkIndex: number }) {
+export default function Block(props: { chunk: IQuestion[], chunkIndex: number }) {
   const { chunk, chunkIndex } = props;
   const [showBlock, setShowBlock] = useState<boolean>(false);
   return(
