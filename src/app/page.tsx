@@ -1,28 +1,37 @@
-'use client'
+'use client';
 import { useEffect, useState } from 'react';
 import questions from '../questions.json';
 import IQuestion from './interfaces';
-import Question from './question';
+import Block from './block';
 
 export default function Home() {
-  const [listQuestions, setListQuestions] = useState<IQuestion[]>([]);
+  const [questionChunks, setQuestionChunks] = useState<IQuestion[][]>([]);
 
   useEffect(() => {
-    setListQuestions(questions.sort(() => Math.random() - 0.5));
+    const shuffled = questions.sort(() => Math.random() - 0.5);
+    const chunks: IQuestion[][] = [];
+    for (let i = 0; i < shuffled.length; i += 60) {
+      chunks.push(shuffled.slice(i, i + 60));
+    }
+    setQuestionChunks(chunks);
   }, []);
 
   return (
     <div className="w-full h-full pt-10 p-3 sm:p-10">
       <div className="font-bold sm:py-5 text-2xl sm:text-4xl w-full text-center sm:text-left">
-        CSA Actual Exam Questions
+        CSA Actual Exam Questions { questions.length }
       </div>
       {
-        listQuestions.map((question: IQuestion, index: number) => (
-          <div key={ index }>
-            <Question question={ question } number={ index } />
+        questionChunks.map((chunk, chunkIndex) => (
+          <div key={ chunkIndex } className="mb-5">
+            <Block
+              chunkIndex={ chunkIndex + 1 }
+              chunk={ chunk }
+            />
           </div>
         ))
       }
     </div>
   );
 }
+
