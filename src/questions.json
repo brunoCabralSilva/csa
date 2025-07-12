@@ -791,7 +791,7 @@
       "Define Data Source, Select Transform Map, Run Transform",
       "Select Import Set, Select Transform Map, Run Transform"
     ],
-    "correctAnswer": ["Select Import Set, Select Transform Map, Run Transform"]
+    "correctAnswer": ["Load Data, Create Transform Map, Run Transform"]
   },
   {
     "text": "Which tool is used for creating dependencies between configuration items in the CMDB?",
@@ -833,7 +833,7 @@
       "Verify Update Set is Complete, Test Connection, Commit",
       "Verify Update Set is Complete, Retrieve, Preview, Commit"
     ],
-    "correctAnswer": ["Verify Update Set is Complete, Test Connection, Commit"]
+    "correctAnswer": ["Verify Update Set is Complete, Retrieve, Preview, Commit"]
   },
   {
     "text": "IntegrationHub enables execution of third-party APIs as a part of a flow. These integrations are referred to as",
@@ -884,7 +884,7 @@
       "The manager is not a member of the Network and Hardware groups.",
       "The Assignment Group manager field is empty."
     ],
-    "correctAnswer": ["The manager does not have the itil role."]
+    "correctAnswer": ["The manager is not a member of the Network and Hardware groups."]
   },
   {
     "text": "What do you need to do before you can use an Application-based trigger in your flow?",
