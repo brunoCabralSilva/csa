@@ -1,0 +1,1871 @@
+[
+  {
+    "text": "A CMDB Administrator is beginning the journey of populating the CMDB and needs to verify that any data which is no longer useful/applicable is removed. Which governance management tool will accomplish this?",
+    "options": [
+      "CI Class Manager",
+      "CMDB and CSDM Data Foundations Dashboard",
+      "CMDB Health Dashboard",
+      "CMDB Data Manager",
+      "De-duplication Templates"
+    ],
+    "correctAnswer": ["CMDB Data Manager"]
+  },
+  {
+    "text": "What types of policies can be created within CMDB Data Manager?",
+    "options": [
+      "De-duplication",
+      "Archive",
+      "Reconciliation",
+      "Retire"
+    ],
+    "correctAnswer": ["De-duplication", "Archive"]
+  },
+  {
+    "text": "A CMDB Administrator wants to educate the team on the various actions that can be performed within the CMDB Workspace. What actions can be initiated from the CMDB Workspace?",
+    "options": [
+      "Execute ServiceNow Discovery",
+      "Create a CMDB Data Manager certification policy",
+      "Remediate duplicate CI records",
+      "Create a new CMDB class"
+    ],
+    "correctAnswer": [
+        "Execute ServiceNow Discovery",
+        "Remediate duplicate CI records"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator changes the query for the SCCM Service Graph Connector. What is the impact of this change?",
+    "options": [
+      "The Data Source for the SCCM Service Graph Connector will be marked as Inactive.",
+      "Any Scheduled Jobs for the SCCM Service Graph Connector will need to be configured.",
+      "Any updates for the SCCM Service Graph Connector will be skipped during the upgrade."
+    ],
+    "correctAnswer": [
+      "Any Scheduled Jobs for the SCCM Service Graph Connector will need to be configured."
+    ]
+  },
+  {
+    "text": "Using existing baseline Data Manager policies, what condition must a CI meet before it can be archived or deleted?",
+    "options": [
+      "Be marked as inactive",
+      "Be marked as critical",
+      "Be retired and in end of life",
+      "Be fully operational and in use"
+    ],
+    "correctAnswer": [
+      "Be retired and in end of life"
+    ]
+  },
+  {
+    "text": "A CSDM Data Manager needs metrics on the alignment of product models, locations, and business units with best practices. Which tab in the CSDM Data Foundations Dashboard provides this information?",
+    "options": [
+      "Run",
+      "Foundation",
+      "Crawl",
+      "Walk",
+      "Fly"
+    ],
+    "correctAnswer": [
+      "Foundation"
+    ]
+  },
+  {
+    "text": "User endpoint devices are imported into the CMDB and populate the 'Assigned to' [assigned_to] field on the Computer [cmdb_ci_computer] CI. The Asset team puts in a request for the Configuration Analysts to populate the 'Assigned to' field on the related Asset. What action does a Configuration Analyst take to achieve this in an automated way?",
+    "options": [
+      "Configure a business rule on the computer table to use a script to populate the 'Assigned to' field on the asset based on insert or update in the computer class 'Assigned to' field",
+      "Use the Asset-CI Field Mapping module to create a new rule to replicate the 'Assigned to' value between the asset and associated CI",
+      "Hide the 'Assigned to' field on the asset record and create a new field that dot walks to the related CI to get the 'Assigned to' value"
+    ],
+    "correctAnswer": [
+      "Use the Asset-CI Field Mapping module to create a new rule to replicate the 'Assigned to' value between the asset and associated CI"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is asked to clean up the CMDB duplicates. What is the preferred way to manage this task?",
+    "options": [
+      "My Tasks in the Application Navigator",
+      "The de-duplication task module",
+      "The de-duplication dashboard on the CMDB workspace"
+    ],
+    "correctAnswer": [
+      "The de-duplication dashboard on the CMDB workspace"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to ensure all short-lived CIs that have not been discovered in the past week are removed. After retiring the CI records, which recommended action does the CMDB Administrator take?",
+    "options": [
+      "Create a delete policy",
+      "Create a scheduled job",
+      "Create a business rule"
+    ],
+    "correctAnswer": [
+      "Create a delete policy"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator group aims to establish a process for receiving task notifications when the Support Group or Managed By Group fields are not populated for operational Linux servers stored in the CMDB. Which ServiceNow modules can be leveraged to configure recommended fields and generate task records in cases where these fields are missing for Linux servers in the CMDB?",
+    "options": [
+      "Technical Service Offerings and Dynamic CI groups",
+      "CMDB Workspace and Scheduled Jobs",
+      "Dynamic CI groups and CMDB groups",
+      "CI Class Manager and Health Preferences"
+    ],
+    "correctAnswer": [
+      "CI Class Manager and Health Preferences"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is asked to create a query using the CMDB Query Builder that displays all operational CIs belonging to a specific application service. Which steps provide the desired outcome?",
+    "options": [
+      "1. Add the Business Application, Application Service, and Configuration Item classes to the canvas. 2. Define a filter for the application service name and the operational status of the configuration items. 3. Configure the relationship between the classes. 4. Run the query.",
+      "1. Add the Application Service and Configuration Item classes to the canvas. 2. Configure the relationship between the classes. 3. Define a filter for the application service name and the operational status of the configuration items. 4. Run the query.",
+      "1. Add the Application Service and Configuration Item classes to the canvas. 2. Configure the relationship between the classes. 3. Add the Operational Status and Name fields as columns. 4. Run the query."
+    ],
+    "correctAnswer": [
+      "1. Add the Application Service and Configuration Item classes to the canvas. 2. Configure the relationship between the classes. 3. Define a filter for the application service name and the operational status of the configuration items. 4. Run the query."
+    ]
+  },
+  {
+    "text": "What is the value of using the CMDB in security operations?",
+    "options": [
+      "Allows security team to assess and remediate an incident",
+      "Enables audits and attestations across CIs",
+      "Auto-resolves a vulnerability",
+      "Identifies the IT infrastructure with a vulnerability"
+    ],
+    "correctAnswer": [
+      "Allows security team to assess and remediate an incident",
+      "Identifies the IT infrastructure with a vulnerability"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator needs to set a CI Class as a Principal Class. Which CI Class Manager tab would need to be accessed?",
+    "options": [
+      "Health > Attributes",
+      "Class Info > Basic Info",
+      "Class Info > Attributes"
+    ],
+    "correctAnswer": [
+      "Class Info > Basic Info"
+    ]
+  },
+  {
+    "text": "An organization utilizes multiple data sources to update its CMDB, each assigned a different priority level. A high-priority data source is scheduled to update server records weekly. However, due to an integration issue, the high-priority data source stops updating the records. Which configuration can be used to allow a lower-priority data source to update records after a specified period of inactivity from the higher-priority source?",
+    "options": [
+      "Data Refresh Rules",
+      "Health Inclusion Rules",
+      "Identification Rules",
+      "Reconciliation Rules"
+    ],
+    "correctAnswer": [
+      "Data Refresh Rules"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to leverage the Staleness metric from the CMDB Health Dashboard - Correctness Scorecard. What is the default duration of this metric?",
+    "options": [
+      "24 hours",
+      "30 days",
+      "7 days",
+      "60 days"
+    ],
+    "correctAnswer": [
+      "30 days"
+    ]
+  },
+  {
+    "text": "The CMDB Configuration Management team has successfully developed a healthy and trusted CMDB. They have integrated discovered infrastructure data, accurately referenced non-discoverable data (such as change and support group information), and made the CMDB service-aware using Service Mapping. How will these improvements enhance the change management process?",
+    "options": [
+      "Automatically schedules and deploys changes without human review or approval",
+      "Provides insight into the potential impact of the change",
+      "Ensures that no changes result in service downtime, regardless of planning or execution",
+      "Enables auto population of the assignment group field to dynamically route changes"
+    ],
+    "correctAnswer": [
+      "Provides insight into the potential impact of the change",
+      "Enables auto population of the assignment group field to dynamically route changes"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator has a report in ServiceNow that lists all CMDB Services that do not have an owner and wants to use a ServiceNow Playbook. What Governance process play can prevent this from recurring?",
+    "options": [
+      "Make the field Managed by mandatory on all CIs",
+      "Make the field Owned by mandatory",
+      "Set a default value on the Service Owner field so that it is never empty"
+    ],
+    "correctAnswer": [
+      "Make the field Owned by mandatory"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is creating technical documentation for stakeholders, which includes a list of attributes, Identification and Reconciliation Engine (IRE) rules, and suggested relationships for several classes. Which central location does the CMDB Administrator use to collect this information?",
+    "options": [
+      "CI Class Manager",
+      "CMDB Data Manager",
+      "CI Identifiers",
+      "CMDB Workspace"
+    ],
+    "correctAnswer": [
+      "CI Class Manager"
+    ]
+  },
+  {
+    "text": "Where can a CMDB 360/Multisource CMDB Saved Query be viewed and created in the CMDB Workspace?",
+    "options": [
+      "CMDB Query Builder",
+      "Coverage window on the CMDB 360 tab",
+      "Saved queries window on the CMDB 360 tab",
+      "Saved queries window on the Insights tab"
+    ],
+    "correctAnswer": [
+      "Saved queries window on the CMDB 360 tab"
+    ]
+  },
+  {
+    "text": "A CMDB Configuration Manager sets up the following data filter for a certification policy using CMDB Data Manager. Table: Server [cmdb_ci_server]. Filter: Operating System | contains | Server OR Operating System | contains | Linux. Which operating systems are affected by this policy?",
+    "options": [
+      "AIX",
+      "Windows Server 2022 Datacenter",
+      "Linux CentOS",
+      "Windows 2019 Datacenter"
+    ],
+    "correctAnswer": [
+      "Windows Server 2022 Datacenter",
+      "Linux CentOS"
+    ]
+  },
+  {
+    "text": "A Configuration Manager needs to restrict the number of classes available in a Configuration Item reference field on an incident form. How does the Manager set Principal Classes?",
+    "options": [
+      "By using the Principal Class check box on the CI Class Manager's Attributes' tab for a Class",
+      "By using the Principal Class check box on the CMDB Workspace",
+      "By using the Principal Class attribute on the CI",
+      "By using the Principal Class check box on the CI Class Manager's 'Basic Info' tab for a Class"
+    ],
+    "correctAnswer": [
+      "By using the Principal Class check box on the CI Class Manager's 'Basic Info' tab for a Class"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is comparing the Unified Map to the Service Mapping map. What are additional capabilities of the Unified Map?",
+    "options": [
+      "Visibility to an application and the host it is installed on",
+      "Number of levels displayed on a map can be modified",
+      "Map nodes can be filtered based on user preferences",
+      "Map can be zoomed in and out"
+    ],
+    "correctAnswer": [
+      "Number of levels displayed on a map can be modified",
+      "Map nodes can be filtered based on user preferences"
+    ]
+  },
+  {
+    "text": "Which default user groups are available when setting up a CMDB Data Manager policy and specifying the task assignment with the Assignment type set to User Group Field?",
+    "options": [
+      "Managed By Group",
+      "Support Group",
+      "Assignment Group",
+      "Owned by Group"
+    ],
+    "correctAnswer": [
+      "Managed By Group",
+      "Support Group"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator aims to utilize CSDM life cycle field mappings to better align with CSDM best practices. What is the next step to take after selecting the Enable Life Cycle Sync button?",
+    "options": [
+      "Fix the incorrect values in the Life Cycle Stage to match legacy values",
+      "Activate the CSDM Life Cycle field mappings",
+      "Resolve any incomplete field mappings identified in the Discrepancy Report"
+    ],
+    "correctAnswer": [
+      "Resolve any incomplete field mappings identified in the Discrepancy Report"
+    ]
+  },
+  {
+    "text": "The Configuration Management team finds value in the reports from CMDB 360/Multisource CMDB and wants to use it for all CI data. Which must be true in order for CMDB 360/Multisource CMDB to be able to report on and analyze that data?",
+    "options": [
+      "ServiceNow Discovery must be used to populate the CI data.",
+      "Reconciliation rules with priorities must be configured.",
+      "The CI data must go through the IRE.",
+      "The CI data must be from an authorized Service Graph Connector."
+    ],
+    "correctAnswer": [
+      "The CI data must go through the IRE."
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to ensure that only relevant CIs from managed classes will be shown on Incident, Problem, and Change records. Which checkbox needs to be checked in the CI Class Manager for the CMDB Administrator to achieve the requested result?",
+    "options": [
+      "Principal Class",
+      "Independent",
+      "Extensible",
+      "Main Record"
+    ],
+    "correctAnswer": [
+      "Principal Class"
+    ]
+  },
+  {
+    "text": "Where can an administrator perform Natural Language Queries (NLQ)?",
+    "options": [
+      "CMDB Health Dashboard",
+      "CMDB Workspace",
+      "CMDB Data Manager",
+      "CI Class Manager"
+    ],
+    "correctAnswer": [
+      "CMDB Workspace"
+    ]
+  },
+  {
+    "text": "A Windows server is reclassified from the Server table [cmdb_ci_server] to the Windows Server table [cmdb_ci_win_server] when processed through the Identification and Reconciliation Engine (IRE). Which process occurred?",
+    "options": [
+      "Class Switch",
+      "Class Change",
+      "Class Upgrade",
+      "Class Downgrade"
+    ],
+    "correctAnswer": [
+      "Class Switch"
+    ]
+  },
+  {
+    "text": "How do CMDB management tools and features within the CMDB governance pillar help organizations manage CIs and improve service delivery?",
+    "options": [
+      "Assist integration choices",
+      "Gain visibility and control",
+      "Enhanced Service Management operations",
+      "Reduced hardware costs"
+    ],
+    "correctAnswer": [
+      "Gain visibility and control",
+      "Enhanced Service Management operations"
+    ]
+  },
+  {
+    "text": "A Configuration Manager wants to manage manually maintained data attributes of CIs. Which group values are automatically synchronized on CIs using Technology Management Offerings (Technical Service Offerings) and dynamic CI groups?",
+    "options": [
+      "Change group",
+      "CMDB group",
+      "Approval group",
+      "Support group"
+    ],
+    "correctAnswer": [
+      "Change group",
+      "Support group"
+    ]
+  },
+  {
+    "text": "A CSDM Data Manager needs metrics on the alignment of Technology Management Services (Technical Services) and Technology Management Offerings (Technical Service Offerings) with best practices. Which tab in the CSDM Data Foundation Dashboard provides this information?",
+    "options": [
+      "Crawl",
+      "Walk",
+      "Fly",
+      "Run"
+    ],
+    "correctAnswer": [
+      "Walk"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is tasked with managing the CMDB and needs to define a new CI class to track a new type of equipment that has not been seen before. Which action adds a new CI class and ensures it integrates properly with the existing CMDB structure?",
+    "options": [
+      "Use Service Catalog to define the new CI class, as the CI Class Manager is only for service-related records and not for hardware CIs",
+      "Create a new CI class directly in the CI Class Manager and configure the table inheritance to ensure it inherits from a relevant parent class",
+      "Edit an existing CI class under CI Class Manager and add new fields specific to the new equipment type",
+      "Use the CI Class Manager to create a new CI class but avoid setting up any inheritance, as CI classes should be independent of one another to maintain clarity"
+    ],
+    "correctAnswer": [
+      "Create a new CI class directly in the CI Class Manager and configure the table inheritance to ensure it inherits from a relevant parent class"
+    ]
+  },
+  {
+    "text": "What are the characteristics or functions of ServiceNow IntegrationHub ETL?",
+    "options": [
+      "Integrates third-party data into the CMDB or into non-CMDB tables",
+      "Performs discovery data collection and updates the CMDB",
+      "Uses the IRE to process and integrate data",
+      "Imports Microsoft SCCM/Intune data into the CMDB"
+    ],
+    "correctAnswer": [
+      "Integrates third-party data into the CMDB or into non-CMDB tables",
+      "Uses the IRE to process and integrate data"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator needs to ingest relevant data from Microsoft SCCM into the CMDB. Which ingestion method brings the fastest time to value?",
+    "options": [
+      "Import Sets",
+      "Agent Client Collector",
+      "Service Graph Connectors",
+      "IntegrationHub ETL"
+    ],
+    "correctAnswer": [
+      "Service Graph Connectors"
+    ]
+  },
+  {
+    "text": "Two new CI records are imported into the hardware class of the CMDB: CI1: The name of this CI record matches the name of an existing CI record in the CMDB. CI2: The IP address of this CI record matches the IP address of an existing CI record in the CMDB. Which is correct based on the identification rule and the imported CI records?",
+    "options": [
+      "CI1 and CI2 both will be updated with matching records.",
+      "CI1 will be updated with matching record and CI2 will be inserted as new record.",
+      "CI1 will be inserted as new record and CI2 will be updated with matching record.",
+      "CI1 and CI2 both will be inserted as new records."
+    ],
+    "correctAnswer": [
+      "CI1 will be updated with matching record and CI2 will be inserted as new record."
+    ]
+  },
+  {
+    "text": "A CMDB Administrator utilizing the CMDB Data Foundations Dashboard sees an issue and wants to run a playbook. Which types of documentation can they expect to be provided in a playbook?",
+    "options": [
+      "Problem Analysis",
+      "Root Cause",
+      "Problem Overview",
+      "Automated Remediations"
+    ],
+    "correctAnswer": [
+      "Problem Analysis",
+      "Problem Overview"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator knows that the CMDB Data Foundation Dashboard is a resource to monitor and improve data quality. What is a benefit of this dashboard?",
+    "options": [
+      "Provides the ability to configure health-related metrics",
+      "Provides key health-related metrics to make decisions",
+      "Provides the ability to resolve certification policy tasks"
+    ],
+    "correctAnswer": [
+      "Provides key health-related metrics to make decisions"
+    ]
+  },
+  {
+    "text": "A CMDB Manager uses CMDB 360/Multisource CMDB to maintain and improve CMDB quality. Why would the Manager use CMDB 360/Multisource CMDB?",
+    "options": [
+      "To identify CI attributes from multiple data sources",
+      "To ingest data from multiple data sources using Service Graph Connector(s)",
+      "To ingest data from multiple data sources using Import Set(s)",
+      "To populate the CMDB from multiple data sources"
+    ],
+    "correctAnswer": [
+      "To identify CI attributes from multiple data sources"
+    ]
+  },
+  {
+    "text": "The Configuration Management team wants to confirm that all servers in the CMDB actually exist in the data center. Which CMDB Data Manager policy type would the team create?",
+    "options": [
+      "Attestation",
+      "Delete",
+      "Retire",
+      "Archive",
+      "Certification"
+    ],
+    "correctAnswer": [
+      "Attestation"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator has a number of similar de-duplication tasks that need to be remediated in bulk. How does the Administrator achieve this?",
+    "options": [
+      "Configure and run a custom de-duplication background script",
+      "Create and run a de-duplication template",
+      "Create de-duplication tasks manually and remediate each",
+      "Utilize the Duplicate CI Remediator Wizard"
+    ],
+    "correctAnswer": [
+      "Create and run a de-duplication template"
+    ]
+  },
+  {
+    "text": "The CMDB Configuration Management team wants to manage de-duplication tasks generated from data ingested into the CMDB via the Identification and Reconciliation Engine (IRE). In which area of the CMDB Workspace can they locate these de-duplication tasks?",
+    "options": [
+      "Important actions tile under the Home tab",
+      "Total status tile under the My Work tab",
+      "CMDB feature adoption tile under the Insights tab"
+    ],
+    "correctAnswer": [
+      "Important actions tile under the Home tab"
+    ]
+  },
+  {
+    "text": "A Configuration Management team has decided to start taking advantage of the CMDB 360/Multisource CMDB functionality. Which system property must be enabled?",
+    "options": [
+      "glide.identification_engine.multisource_enabled",
+      "glide.identification_engine.multisource.query.max.limit",
+      "glide.identification_engine.multisource_cmdb_ci_enabled",
+      "glide.identification_engine.multisource_non_cmdb_ci_enabled"
+    ],
+    "correctAnswer": [
+      "glide.identification_engine.multisource_enabled"
+    ]
+  },
+  {
+    "text": "A Configuration Management Governance team is transitioning from utilizing legacy CMDB status fields to CSDM life cycle status fields. Which table can be modified?",
+    "options": [
+      "Life Cycle Stages [life_cycle_stage]",
+      "Life Cycle Mapping [life_cycle_mapping]",
+      "Life Cycle Controls [life_cycle_control]",
+      "Life Cycle Stage Status [life_cycle_stage_status]"
+    ],
+    "correctAnswer": [
+      "Life Cycle Mapping [life_cycle_mapping]"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator has imported data into the ServiceNow CMDB from a third-party source using a Service Graph Connector. The Administrator wants to review specific field to field mappings for the import. Which feature will show that information?",
+    "options": [
+      "Integration Hub",
+      "CMDB Integrations Dashboard",
+      "IntegrationHub ETL"
+    ],
+    "correctAnswer": [
+      "IntegrationHub ETL"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is considering whether to start using the playbooks provided on the CMDB Data Foundation Dashboard. What are the benefits to support the decision to leverage this feature?",
+    "options": [
+      "Offers insight into the downstream impacts of poorly performing metrics",
+      "Offers remediation templates to improve poorly performing metrics",
+      "Offers remediation options to address and improve poorly performing metrics",
+      "Offers automated scripts to resolve poorly performing metrics"
+    ],
+    "correctAnswer": [
+      "Offers remediation templates to improve poorly performing metrics",
+      "Offers remediation options to address and improve poorly performing metrics"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is managing group data from both the CI Class Manager and a Technical Service Offering for a specific class. CI Class Manager: Managed by Group = Enterprise IT Services. Technical Service Offering: Managed by Group = Windows Support. Change Group = Change Management Team. What would be the Managed By Group for CIs from this class based on the configured values?",
+    "options": [
+      "Enterprise IT Services",
+      "Change Management Team",
+      "Windows Support"
+    ],
+    "correctAnswer": [
+      "Windows Support"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator, viewing the CMDB Data Foundations Dashboard, notices the Unique Locations Result percentage low. What is the recommended process from the associated playbook to correct this issue?",
+    "options": [
+      "Retain the location that matches the organization's standard naming convention, and delete the duplicate without further validation",
+      "Review both locations, update CIs with the correct location and delete the duplicate location",
+      "Keep both locations as either can be used as a valid alternate location",
+      "Use the Duplicate CI Remediator to merge the duplicate location records"
+    ],
+    "correctAnswer": [
+      "Review both locations, update CIs with the correct location and delete the duplicate location"
+    ]
+  },
+  {
+    "text": "An Asset Manager wants to ensure that Asset records and CI records are kept synchronized automatically. How does the Manager do this?",
+    "options": [
+      "Ensure that the business rule to update Asset fields on change on the CI table is active",
+      "Ensure that scheduled jobs are run during off-business hours to ensure that sync happens",
+      "Ensure that the business rule to update CI fields on change on the asset table is active",
+      "Ensure one-to-one physical mapping between Asset and CI"
+    ],
+    "correctAnswer": [
+      "Ensure that the business rule to update Asset fields on change on the CI table is active",
+      "Ensure that the business rule to update CI fields on change on the asset table is active"
+    ]
+  },
+  {
+    "text": "A Configuration Management team has successfully developed a healthy and trusted CMDB. They have integrated discovered infrastructure data, accurately referenced non-discoverable data (such as change and support group information), and made the CMDB service-aware using Service Mapping. Which field on a Change Request form is automatically populated after a CI is selected that references an appropriate change group?",
+    "options": [
+      "Managed by Group",
+      "Change Group",
+      "Assignment Group",
+      "Support Group",
+      "Assigned to"
+    ],
+    "correctAnswer": [
+      "Change Group"
+    ]
+  },
+  {
+    "text": "A Windows administration team wants a grouping of CIs using CMDB groups. Which methods can be used?",
+    "options": [
+      "Tag-based queries",
+      "Encoded queries",
+      "Scripted queries",
+      "Saved queries"
+    ],
+    "correctAnswer": [
+      "Tag-based queries",
+      "Encoded queries"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to configure IRE rules for the CMDB. The CMDB Administrator opens CI Class Manager and sees the Health Inclusions Rules tab available under a CI Class. How are these rules utilized by the IRE?",
+    "options": [
+      "To narrow the scope of CIs included in the identification process",
+      "To reduce the data ingested into the CMDB",
+      "To reconcile specific attributes based on data sources"
+    ],
+    "correctAnswer": [
+      "To narrow the scope of CIs included in the identification process"
+    ]
+  },
+  {
+    "text": "A health organization must track certain data (for example, regulated patient information) and its relation to Business Applications. Which action does CSDM recommend to meet this goal?",
+    "options": [
+      "Work with the Database administration team to classify the data on each database that holds patient information, and then use Relationships to map that back to the Business Application.",
+      "Create fields on the Business Application record to mark the Business Application as containing patient information, and then ask the Business Application owner to mark the application as having patient information or not.",
+      "Create an Information Object to represent the patient information, and then link it through a relationship to the Business Application after consulting with the Application owner."
+    ],
+    "correctAnswer": [
+      "Create an Information Object to represent the patient information, and then link it through a relationship to the Business Application after consulting with the Application owner."
+    ]
+  },
+  {
+    "text": "A data center has many servers. The CMDB Administrator wants to confirm that all servers exist. Which Data Manager policy type does the Administrator implement?",
+    "options": [
+      "Promotion",
+      "Verification",
+      "Attestation",
+      "Certification"
+    ],
+    "correctAnswer": [
+      "Attestation"
+    ]
+  },
+  {
+    "text": "A ServiceNow Administrator needs to create multiple new classes in the CMDB but wants to follow ServiceNow's best practices for naming CMDB tables to prevent technical debt. Which is the starting prefix for all custom CMDB tables?",
+    "options": [
+      "cmdb_ci",
+      "u_cmdb_ci",
+      "u_ci_cmdb",
+      "ci_cmdb"
+    ],
+    "correctAnswer": [
+      "u_cmdb_ci"
+    ]
+  },
+  {
+    "text": "ServiceNow Event Management significantly benefits from a well-maintained and properly populated CMDB. What are key advantages it provides to Event Management?",
+    "options": [
+      "Mapped services provide visibility to users consuming the service",
+      "Binding of alerts to specific CIs",
+      "Correlation of alerts to knowledge base articles",
+      "Mapped services provide visibility to the business impact of an alert"
+    ],
+    "correctAnswer": [
+      "Binding of alerts to specific CIs",
+      "Mapped services provide visibility to the business impact of an alert"
+    ]
+  },
+  {
+    "text": "A Configuration Manager is managing a CI class in the CMDB. The identification rule(s) needs an update. Where can the Configuration Manager view and configure the existing identification rule(s) for the class?",
+    "options": [
+      "API Integrations",
+      "IRE Application",
+      "CI Class Manager",
+      "CI Identifiers module"
+    ],
+    "correctAnswer": [
+      "CI Class Manager",
+      "CI Identifiers module"
+    ]
+  },
+  {
+    "text": "A hospital has received a new CT Scanner. The Inventory management team has created a catalog item doctors can use to schedule patients for scans. What CSDM domain should the inventory management team map the catalog item to?",
+    "options": [
+      "Design and Planning (Design)",
+      "Build and Integration (Build)",
+      "Service Delivery (Manage Technical Service)",
+      "Foundation",
+      "Service Consumption (Sell/Consume)"
+    ],
+    "correctAnswer": [
+      "Service Consumption (Sell/Consume)"
+    ]
+  },
+  {
+    "text": "An Enterprise Architect of a financial services company is working across the enterprise and wants to track their capabilities. Which CSDM 5 domain is used?",
+    "options": [
+      "Foundation",
+      "Build and Integration (Build)",
+      "Design and Planning (Design)",
+      "Service Consumption (Sell/Consume)",
+      "Service Delivery (Manage Technical)"
+    ],
+    "correctAnswer": [
+      "Design and Planning (Design)"
+    ]
+  },
+  {
+    "text": "The CMDB Administrator wants to leverage the Staleness metric from the CMDB Health Dashboard - Correctness Scorecard. Which field is used to calculate the duration of this metric?",
+    "options": [
+      "Last modified on (last_modified)",
+      "Created (sys_created_on)",
+      "Updated (sys_updated_on)",
+      "First discovered (first_discovered)",
+      "Most recent discovery (last_discovery)"
+    ],
+    "correctAnswer": [
+      "Most recent discovery (last_discovery)"
+    ]
+  },
+  {
+    "text": "A CMDB Architect intends to populate the CMDB using the CSDM guidance. Which key stakeholders from the organization should be involved in decisions regarding population of the CMDB using the CSDM Crawl Stage?",
+    "options": [
+      "Business Service Manager, Technology Service Owner",
+      "Application Owner, Application Service Owner",
+      "Customer Service Manager, Infrastructure Manager"
+    ],
+    "correctAnswer": [
+      "Business Service Manager, Technology Service Owner"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator has taken over management of a ServiceNow instance and has determined there are multiple deficiencies in the CMDB. During review of the CMDB Data Foundations Dashboard, the Administrator sees that ServiceNow offers Remediation Playbooks. How can Playbooks assist the Administrator in resolving these issues?",
+    "options": [
+      "Playbooks can automatically track common CMDB issues and output metrics.",
+      "Playbooks can be installed in the instance to automatically fix issues.",
+      "Playbooks can help analyze and fix issues."
+    ],
+    "correctAnswer": [
+      "Playbooks can help analyze and fix issues."
+    ]
+  },
+  {
+    "text": "What is the relationship between an application and a server?",
+    "options": [
+      "Application > Uses::Used by > Server",
+      "Application > Runs::Runs On > Server",
+      "Application > Runs on::Runs > Server",
+      "Application > Used by::Uses > Server"
+    ],
+    "correctAnswer": [
+      "Application > Runs::Runs On > Server"
+    ]
+  },
+  {
+    "text": "An organization needs to maintain non-discoverable attributes, such as warranty expiration dates, for hardware CIs. These attributes are not updated by automated discovery tools. What method ensures these attributes are accurately maintained for all CIs?",
+    "options": [
+      "Create a new CI class specifically for non-discoverable attributes",
+      "Use the CMDB Reconciliation Engine to update the attributes",
+      "Use a scheduled data import to update the attributes from an external source"
+    ],
+    "correctAnswer": [
+      "Use a scheduled data import to update the attributes from an external source"
+    ]
+  },
+  {
+    "text": "A Service Desk Manager wants to leverage the Unified Map to find active incidents or problems for a selected CI. Which panel will give the manager visibility and details?",
+    "options": [
+      "Overview",
+      "Application services",
+      "Related items",
+      "Attributes"
+    ],
+    "correctAnswer": [
+      "Related items"
+    ]
+  },
+  {
+    "text": "A Service Portfolio Manager wants to know what Application Services their Business Service Offerings depend on. What stage of CSDM would map this relationship?",
+    "options": [
+      "Fly",
+      "Crawl",
+      "Foundation",
+      "Run",
+      "Walk"
+    ],
+    "correctAnswer": [
+      "Walk"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator needs to track which CIs and CI classes are missing key data. Which CMDB Health Dashboard scorecard supports tracking this requirement?",
+    "options": [
+      "Compliance",
+      "Correctness",
+      "Completeness"
+    ],
+    "correctAnswer": [
+      "Completeness"
+    ]
+  },
+  {
+    "text": "During a CMDB implementation, a team member is tasked with ensuring the accuracy and completeness of CI data. This person is also responsible for maintaining data quality and resolving discrepancies. Which role is responsible for these tasks?",
+    "options": [
+      "Service Owner",
+      "CMDB Architect",
+      "Configuration Manager",
+      "IT Asset Manager"
+    ],
+    "correctAnswer": [
+      "Configuration Manager"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator needs insights into how their CMDB is configured according to ServiceNow recommended practice. Which should be used?",
+    "options": [
+      "CMDB Data Foundation Dashboard",
+      "CMDB Workspace",
+      "CMDB Health Dashboard",
+      "CMDB Data Manager"
+    ],
+    "correctAnswer": [
+      "CMDB Data Foundation Dashboard"
+    ]
+  },
+  {
+    "text": "A customer wants to model their business applications and would like to capture different types of data that includes Personally Identifiable Information (PII) data. Based on these requirements, which CMDB class needs to be leveraged to achieve this?",
+    "options": [
+      "Business Capability",
+      "API Component",
+      "Information Object",
+      "Data Classification"
+    ],
+    "correctAnswer": [
+      "Information Object"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator needs to create a new CI class for the Internet of Things (IoT) Sensor in ServiceNow. What are the recommended practices for this specific activity?",
+    "options": [
+      "Install or update the CMDB CI Class Models store application, and verify the class does not already exist",
+      "Modify an existing class",
+      "Add a new class under an appropriate parent class",
+      "Delete an unused class, and replace it with the new one"
+    ],
+    "correctAnswer": [
+      "Install or update the CMDB CI Class Models store application, and verify the class does not already exist",
+      "Add a new class under an appropriate parent class"
+    ]
+  },
+  {
+    "text": "A CMDB Data Manager needs to access the ServiceNow platform to create, publish, and manage policies that automate and govern CI lifecycle operations, ensuring the CMDB remains healthy and efficient. Where can the Data Manager do this?",
+    "options": [
+      "CMDB Workspace CMDB 360 tab",
+      "Service Operations Workspace",
+      "CI Class Manager",
+      "CMDB Workspace Management tab"
+    ],
+    "correctAnswer": [
+      "CMDB Workspace Management tab"
+    ]
+  },
+  {
+    "text": "What ensures data volume in the CMDB is manageable?",
+    "options": [
+      "Scheduled Jobs",
+      "Business Rules",
+      "Archive Policies"
+    ],
+    "correctAnswer": [
+      "Archive Policies"
+    ]
+  },
+  {
+    "text": "Which are business values of CMDB?",
+    "options": [
+      "Collecting and managing financial data",
+      "Streamlining incident and change management",
+      "Strengthening operational resiliency",
+      "Automating maintenance for CI relationships"
+    ],
+    "correctAnswer": [
+      "Streamlining incident and change management",
+      "Strengthening operational resiliency"
+    ]
+  },
+  {
+    "text": "Which ServiceNow solution creates automatic relationships?",
+    "options": [
+      "Discovery",
+      "Workflow Studio",
+      "Service Mapping",
+      "IntegrationHub ETL"
+    ],
+    "correctAnswer": [
+      "Discovery",
+      "Service Mapping"
+    ]
+  },
+  {
+    "text": "When integrating data into the CMDB using import sets and transform maps, which type of script is added to ensure the data is processed through the IRE?",
+    "options": [
+      "onComplete",
+      "onBefore",
+      "onStart",
+      "onAfter"
+    ],
+    "correctAnswer": [
+      "onStart"
+    ]
+  },
+  {
+    "text": "A service owner is using Unified Map to understand the composition of a service but wants to filter out irrelevant information. Which options are available to the service owner from the filter panel?",
+    "options": [
+      "Discovery source",
+      "Managed by group",
+      "Business criticality",
+      "CI type"
+    ],
+    "correctAnswer": [
+      "Discovery source",
+      "CI type"
+    ]
+  },
+  {
+    "text": "A Configuration Management Governance team is transitioning from utilizing legacy CMDB status fields to CSDM life cycle status fields. Which table can be modified?",
+    "options": [
+      "Life Cycle Mapping [life_cycle_mapping]",
+      "Life Cycle Stages [life_cycle_stage]",
+      "Life Cycle Controls [life_cycle_control]",
+      "Life Cycle Stage Status [life_cycle_stage_status]"
+    ],
+    "correctAnswer": [
+      "Life Cycle Mapping [life_cycle_mapping]"
+    ]
+  },
+  {
+    "text": "In a company there is a need to understand the CSDM maturity level needed. Different stakeholders listed a number of use cases that they expect over time. Which use case requires information objects?",
+    "options": [
+      "The Asset Management team wants to understand the asset life cycle compliancy in a Business Application context.",
+      "The SecOps team wants to understand the operational risk in the Business Application context.",
+      "The Business Service Management team wants to understand the operational impact for their consumer parties.",
+      "The Event Operations team wants to automate their events into incident for operational actions.",
+      "The Customer Service team wants to onboard pro-active case management."
+    ],
+    "correctAnswer": [
+      "The SecOps team wants to understand the operational risk in the Business Application context."
+    ]
+  },
+  {
+    "text": "A customer wants recently imported server records to be automatically reclassified into more specific CMDB classes after being discovered using ServiceNow Discovery. During the discovery process, if existing Server [cmdb_ci_server] records are reclassified into the Linux [cmdb_ci_linux_server] and Windows Server [cmdb_ci_win_server] classes, which reclassification operation occurred?",
+    "options": [
+      "Class Switch",
+      "Class Downgrade",
+      "Class Upgrade"
+    ],
+    "correctAnswer": [
+      "Class Upgrade"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is reviewing the health of the CMDB and notices a large percentage of the Hardware CIs are missing serial numbers. The Administrator is concerned this may cause duplicate CIs and would like to resolve the issue in a timely manner. What structured guidelines provided by ServiceNow are available to troubleshoot and resolve the issue?",
+    "options": [
+      "CSDM Now Create Playbooks",
+      "CMDB Data Foundations Dashboard Playbooks",
+      "CMDB Health Dashboard Playbooks",
+      "CSDM Data Foundations Dashboard Playbooks"
+    ],
+    "correctAnswer": [
+      "CMDB Health Dashboard Playbooks"
+    ]
+  },
+  {
+    "text": "A Platform Owner is collaborating with stakeholders in the manufacturing industry to align their CIs with the CSDM 5 framework. They need to map production line monitoring systems to the appropriate CSDM domain. Which CSDM 5 domain does the Platform Owner use?",
+    "options": [
+      "Service Delivery (Manage Technical)",
+      "Foundation",
+      "Build and Integration (Build)",
+      "Service Consumption (Sell/Consume)",
+      "Design and Planning (Design)"
+    ],
+    "correctAnswer": [
+      "Service Delivery (Manage Technical)"
+    ]
+  },
+  {
+    "text": "The Configuration Manager is preparing the justification to utilize the CMDB Data Foundations Dashboard. Which benefits align with the usage of this dashboard?",
+    "options": [
+      "It provides actionable insights to improve data quality and completeness.",
+      "It enables monitoring and tracking of CMDB health over time.",
+      "It automates the approval process for change management.",
+      "It helps detect and eliminate duplicate records in the CMDB."
+    ],
+    "correctAnswer": [
+      "It provides actionable insights to improve data quality and completeness.",
+      "It enables monitoring and tracking of CMDB health over time."
+    ]
+  },
+  {
+    "text": "A CMDB Administrator, viewing the CMDB Data Foundations Dashboard, notices the Unique Locations Result percentage low. What is the recommended process from the associated playbook to correct this issue?",
+    "options": [
+      "Use the Duplicate CI Remediator to merge the duplicate location records",
+      "Retain the location that matches the organization's standard naming convention, and delete the duplicate without further validation",
+      "Review both locations, update CIs with the correct location and delete the duplicate location",
+      "Keep both locations as either can be used as a valid alternate location"
+    ],
+    "correctAnswer": [
+      "Review both locations, update CIs with the correct location and delete the duplicate location"
+    ]
+  },
+  {
+    "text": "A Configuration Manager is planning the implementation of the CMDB. Which is the prescribed CSDM rollout order?",
+    "options": [
+      "Initiate, Plan, Execute, Deliver, Close",
+      "Architecture, Business, Technical, Governance",
+      "Foundation, Crawl, Walk, Run, Fly",
+      "Initial, Developing, Defined, Managed"
+    ],
+    "correctAnswer": [
+      "Foundation, Crawl, Walk, Run, Fly"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator needs to import external data into the CMDB. As the CMDB Administrator wants to reduce the risk for creating duplicates and to update information from unauthorized sources, it has to be ensured that the Identification and Reconciliation API will not be bypassed. What is the recommended method to import data into the CMDB utilizing the Identification and Reconciliation API?",
+    "options": [
+      "Import Sets and Transform Maps",
+      "IntegrationHub ETL",
+      "Table API (REST API or SOAP API)"
+    ],
+    "correctAnswer": [
+      "IntegrationHub ETL"
+    ]
+  },
+  {
+    "text": "Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "options": [
+      "Automates the enforcement of relationship rules between Cls in the CMDB",
+      "Automates the archival and deletion of records based on retention policies",
+      "Encrypts archived records for enhanced security"
+    ],
+    "correctAnswer": [
+      "Automates the enforcement of relationship rules between Cls in the CMDB"
+    ]
+  },
+  {
+    "text": "The following Reconciliation Rules were configured for ServiceNow, Altiris, and SCCM: Discovery Source: ServiceNow, Class: Windows Server [cmdb_ci_win_server], Priority: 100. Discovery Source: Altiris, Class: Windows Server [cmdb_ci_win_server], Priority: 200. Discovery Source: SCCM, Class: Windows Server [cmdb_ci_win_server], Priority: 300. Which are true?",
+    "options": [
+      "Data collected with a discovery source of ServiceNow can insert new records into the Windows Server [cmdb_ci_win_server] table, but cannot update records created by Altiris or SCCM.",
+      "Data collected with a discovery source of Altiris can update records inserted by SCCM into the Windows Server [cmdb_ci_win_server] table.",
+      "Data collected with a discovery source of SCCM can be inserted as new records in the Windows Server [cmdb_ci_win_server] table.",
+      "Data collected with a discovery source of SCCM can update any record in the Windows Server [cmdb_ci_win_server] table because it has the highest priority number."
+    ],
+    "correctAnswer": [
+      "Data collected with a discovery source of ServiceNow can insert new records into the Windows Server [cmdb_ci_win_server] table, but cannot update records created by Altiris or SCCM.",
+      "Data collected with a discovery source of SCCM can be inserted as new records in the Windows Server [cmdb_ci_win_server] table."
+    ]
+  },
+  {
+    "text": "A CMDB Manager wants to improve data quality using the CMDB Health Dashboard. What needs to happen to generate CMDB health scores?",
+    "options": [
+      "The scheduled jobs for the CMDB Health Dashboard must be activated",
+      "Nothing, CMDB health scores are calculated by default",
+      "The plugin, CMDB health calculation, needs to be installed"
+    ],
+    "correctAnswer": [
+      "The scheduled jobs for the CMDB Health Dashboard must be activated"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator has been tasked with gathering information for a presentation to leadership. The Administrator needs to provide Duplicate CI, Orphan CI and Stale CI metrics. Which scorecard provides this information on the CMDB Health Dashboard?",
+    "options": [
+      "Correctness",
+      "Compliance",
+      "Completeness"
+    ],
+    "correctAnswer": [
+      "Correctness"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to run the Services Have Owners Identified playbook to remediate the issues shown in the CMDB Data Foundations Dashboard. Which remediation plays would be used?",
+    "options": [
+      "Govern Data",
+      "Report Data",
+      "Fix Data"
+    ],
+    "correctAnswer": [
+      "Govern Data",
+      "Fix Data"
+    ]
+  },
+  {
+    "text": "The following identification rule for a CI class has been defined: Hardware Rule: Identifier Entries Table - Serial Number, Criterion attributes: serial_number, serial_number_type, Priority: 100. Hardware Rule: Identifier Entries Table - Hardware, Criterion attributes: serial_number, Priority: 200. Hardware Rule: Identifier Entries Table - Hardware, Criterion attributes: name, Priority: 300. Hardware Rule: Identifier Entries Table - Network Adapter, Criterion attributes: mac_address, name, Priority: 400. Two new CI records are imported into the hardware class of the CMDB: CI1: The name of this CI record matches the name of an existing CI record in the CMDB. CI2: The IP address of this CI record matches the IP address of an existing CI record in the CMDB. Which is correct based on the identification rule and the imported CI records?",
+    "options": [
+      "CI1 will be inserted as new record and CI2 will be updated with matching record.",
+      "CI1 will be updated with matching record and CI2 will be inserted as new record.",
+      "CI1 and CI2 both will be updated with matching records.",
+      "CI1 and CI2 both will be inserted as new records."
+    ],
+    "correctAnswer": [
+      "CI1 will be updated with matching record and CI2 will be inserted as new record."
+    ]
+  },
+  {
+    "text": "Where can a CMDB 360/Multisource CMDB Saved Query be viewed and created in the CMDB Workspace?",
+    "options": [
+      "Saved queries window on the Insights tab",
+      "CMDB Query Builder",
+      "Saved queries window on the CMDB 360 tab",
+      "Coverage window on the CMDB 360 tab"
+    ],
+    "correctAnswer": [
+      "Saved queries window on the CMDB 360 tab"
+    ]
+  },
+  {
+    "text": "Where can an administrator perform Natural Language Queries (NLQ)?",
+    "options": [
+      "CMDB Data Manager",
+      "CMDB Workspace",
+      "CI Class Manager",
+      "CMDB Health Dashboard"
+    ],
+    "correctAnswer": [
+      "CMDB Workspace"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is implementing a Vulnerability Response or Security Incident Response and needs to ensure customers have enough context to estimate risk and set task priorities. Which Get Well Playbook from the CSOM Data Foundations Dashboard helps with this?",
+    "options": [
+      "Percentage of Custom Status Values for CI Life Cycle Stages",
+      "Named Product Models without Product Owners",
+      "Locations without a Parent Location",
+      "Application Services with Business Application Relationships"
+    ],
+    "correctAnswer": [
+      "Application Services with Business Application Relationships"
+    ]
+  },
+  {
+    "text": "Yesterday, an Apache Web Server CI was discovered as part of Service Mapping. Today, the application owner upgraded Apache to a different version and reran discovery of the service. What will happen in the CMDB?",
+    "options": [
+      "A new Apache Web Server CI is created.",
+      "The Apache Web Server CI will be reclassified as a Web Server CI.",
+      "The existing Apache Web Server CI will be reconciled and its version will be updated.",
+      "A duplication error will occur."
+    ],
+    "correctAnswer": [
+      "The existing Apache Web Server CI will be reconciled and its version will be updated."
+    ]
+  },
+  {
+    "text": "A Change Manager aims to streamline ITSM processes by automatically populating fields on the Change form when a CI is selected. The Configuration Management team is working to ensure that the Change Group field is populated for all managed CIs. As a result, which base system field on the incident form will be automatically populated after selecting a CI?",
+    "options": [
+      "Change group",
+      "Assignment group",
+      "Managed by group",
+      "Approval group"
+    ],
+    "correctAnswer": [
+      "Assignment group"
+    ]
+  },
+  {
+    "text": "CMDB class owners are receiving tasks under the 'My Work' tab in the CMDB Workspace. Which CMDB management tool is generating these tasks?",
+    "options": [
+      "CMDB Health Dashboard",
+      "De-duplication templates",
+      "CMDB Data Manager"
+    ],
+    "correctAnswer": [
+      "CMDB Data Manager"
+    ]
+  },
+  {
+    "text": "Which type of CMDB Data Manager policy creates tasks that allow the assigned individual to update fields on the CI record?",
+    "options": [
+      "Compliance",
+      "Audit",
+      "Attestation",
+      "Certification"
+    ],
+    "correctAnswer": [
+      "Certification"
+    ]
+  },
+  {
+    "text": "Configuration Management requires an accurate inventory of devices to be reflected in the CMDB. Which are common use cases for using Agent Client Collector (ACC)?",
+    "options": [
+      "Network devices in the DMZ",
+      "Devices in secure environments",
+      "Servers in the data center",
+      "Devices that intermittently connect to the network"
+    ],
+    "correctAnswer": [
+      "Devices in secure environments",
+      "Devices that intermittently connect to the network"
+    ]
+  },
+  {
+    "text": "A Configuration Manager has configured multiple data sources which are all authorized to update the same class and the same set of class attributes in the CMDB. What can the Configuration Manager do to control which data source should be the authoritative source of truth for a specific class or set of class attributes?",
+    "options": [
+      "Configure data refresh rules with a specific time period",
+      "Assign a priority to each data source in the reconciliation rules",
+      "Manually run the data source updates in the correct order",
+      "Assign a run order to each data source in the identification rules"
+    ],
+    "correctAnswer": [
+      "Assign a priority to each data source in the reconciliation rules"
+    ]
+  },
+  {
+    "text": "A Configuration Manager needs to leverage a policy type to automate the creation and assignment of tasks to validate the existence of CIs. Which policy type should be used to accomplish this goal?",
+    "options": [
+      "Delete",
+      "Attestation",
+      "Certification",
+      "Retire"
+    ],
+    "correctAnswer": [
+      "Attestation"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to create a CMDB query to find all databases located in Seattle that are connected to application services. They also want to include incidents related to those databases. Which actions does the company take to build this query?",
+    "options": [
+      "Add a filter to the database node for location = Seattle",
+      "Add to the canvas the Incident table from the Non-CMDB Tables list",
+      "Set the relationship level to 'Up to 2nd level relationships'",
+      "Add property columns to the application service node"
+    ],
+    "correctAnswer": [
+      "Add a filter to the database node for location = Seattle",
+      "Add to the canvas the Incident table from the Non-CMDB Tables list"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator identifies duplicate CIs. One was created by a manual import, and the other one was created by automated discovery. The discovered CI has the latest IP address, while the manually imported CI has an accurate relationship to a critical business application. How does the Administrator use the Duplicate CI Remediator to resolve this issue?",
+    "options": [
+      "Merge the two CIs automatically, retaining all attributes from the discovered CI",
+      "Retain the discovered CI, and delete the manually imported CI",
+      "Retain the discovered CI, but merge the relationship from the manually imported CI",
+      "Retain the manually imported CI, and delete the discovered CI"
+    ],
+    "correctAnswer": [
+      "Retain the discovered CI, but merge the relationship from the manually imported CI"
+    ]
+  },
+  {
+    "text": "The CMDB Configuration Management team wants to manage de-duplication tasks generated from data ingested into the CMDB via the Identification and Reconciliation Engine (IRE). In which area of the CMDB Workspace can they locate these de-duplication tasks?",
+    "options": [
+      "Important actions tile under the Home tab",
+      "Total status tile under the My Work tab",
+      "CMDB feature adoption tile under the Insights tab"
+    ],
+    "correctAnswer": [
+      "Important actions tile under the Home tab"
+    ]
+  },
+  {
+    "text": "A Change Manager wants to gain value from CSDM. How will the Change Management process benefit from CSDM?",
+    "options": [
+      "Determine the root cause of the change issue",
+      "Identify blackout windows for the change",
+      "Understand the impact of the change on services",
+      "Route the change dynamically"
+    ],
+    "correctAnswer": [
+      "Understand the impact of the change on services",
+      "Route the change dynamically"
+    ]
+  },
+  {
+    "text": "A development team is working on a project and an application will be deployed to many servers. There will be several security requirements that must be checked to adhere to lawful regulatory compliance because the application will be holding customer personal data (PII and PCI). Where in the CSDM does the development team look to store the information that will be used to satisfy the audits?",
+    "options": [
+      "Customer Service Offerings and Databases",
+      "Business Applications and Information Objects",
+      "Technology Management Service Offerings (Technical Service Offerings) and Dynamic CI Groups"
+    ],
+    "correctAnswer": [
+      "Business Applications and Information Objects"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is evaluating whether to monitor the metrics provided on the CMDB Data Foundation Dashboard. Which benefits support the decision to continually monitor the results on this dashboard?",
+    "options": [
+      "Provides metrics for CIs Processed by the IRE",
+      "Reports on all orphan CIs in the CMDB",
+      "Provides metrics on active CIs updated in the last 90 days",
+      "Provides a list of all CIs that failed health audits"
+    ],
+    "correctAnswer": [
+      "Provides metrics for CIs Processed by the IRE",
+      "Provides metrics on active CIs updated in the last 90 days"
+    ]
+  },
+  {
+    "text": "A Configuration Manager wants to use the Unified Map. Where would it be accessed?",
+    "options": [
+      "CI Class Manager",
+      "CMDB Workspace",
+      "CMDB Data Manager"
+    ],
+    "correctAnswer": [
+      "CMDB Workspace"
+    ]
+  },
+  {
+    "text": "A Platform Data Owner wants to improve data quality with a few reconciliation rules across the five discovery sources that are being used. The Data Owner knows the best option is to include CMDB 360/Multisource CMDB to manage and monitor discovery sources, but the company currently does not have a license for ITOM Discovery that is required for CMDB 360/Multisource CMDB. What can the Data Owner do in this case?",
+    "options": [
+      "CMDB 360/Multisource is a platform product that can be used immediately.",
+      "ITOM Discovery needs to be purchased to take advantage of the multisource IRE Rules.",
+      "The IRE reconciliation rules can use discovery sources regardless of CMDB 360 being enabled."
+    ],
+    "correctAnswer": [
+      "The IRE reconciliation rules can use discovery sources regardless of CMDB 360 being enabled."
+    ]
+  },
+  {
+    "text": "A Data Center Manager is working with the CMDB CI Class Manager to define the relationship between Application Servers and the Applications they host. The company has multiple Application Servers that host one or more Applications. Which describes the relationship between the Application Server table ([cmdb_ci_app_server]) and the Application table ([cmdb_ci_appl])?",
+    "options": [
+      "Many-to-one",
+      "Many-to-many",
+      "One-to-many",
+      "One-to-one"
+    ],
+    "correctAnswer": [
+      "Many-to-many"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to improve data quality related to the CSDM. Which action should the Administrator take to meet this goal?",
+    "options": [
+      "Use the CSDM Data Foundations Dashboard",
+      "Use the default configured CMDB Health Dashboard",
+      "Start the ServiceNow Health Scan"
+    ],
+    "correctAnswer": [
+      "Use the CSDM Data Foundations Dashboard"
+    ]
+  },
+  {
+    "text": "What is the difference between Data Certification and Attestation policies when managing a CI?",
+    "options": [
+      "Attestation can be scheduled, while Data Certification cannot be scheduled.",
+      "Attestation requires correcting specific attributes of a CI, while Data Certification tracks acknowledgement the CI still exists.",
+      "Attestation tracks acknowledgement the CI still exists, while Data Certification requires validating specific attributes of a CI.",
+      "Attestation can be assigned to a Group or an individual, while Data Certification can only be assigned to an individual."
+    ],
+    "correctAnswer": [
+      "Attestation tracks acknowledgement the CI still exists, while Data Certification requires validating specific attributes of a CI."
+    ]
+  },
+  {
+    "text": "According to the Common Service Data Model (CSDM), a server team is requesting a catalog item be created for infrastructure upgrade requests. Which role is involved in initiating the request and defining requirements?",
+    "options": [
+      "Enterprise Architect",
+      "Application Service Owners",
+      "Technology Service Owners"
+    ],
+    "correctAnswer": [
+      "Technology Service Owners"
+    ]
+  },
+  {
+    "text": "A customer's CMDB is aligned to the CSDM Walk stage. What benefit is provided by the CMDB?",
+    "options": [
+      "Allows for additional stratification of Technical team's support structure along the lines of OLAs and commitments",
+      "Improves the implementation velocity of APM Foundation for future business application rationalization",
+      "Enables impact assessments for incident, problem, and change on Business Services"
+    ],
+    "correctAnswer": [
+      "Enables impact assessments for incident, problem, and change on Business Services"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator would like to minimize stale CIs in the CMDB. Which CMDB Health Dashboard scorecard displays this information?",
+    "options": [
+      "Completeness",
+      "Correctness",
+      "Compliance"
+    ],
+    "correctAnswer": [
+      "Correctness"
+    ]
+  },
+  {
+    "text": "The CMDB Configuration Management team has successfully developed a healthy and trusted CMDB. They have integrated discovered infrastructure data, accurately referenced non-discoverable data (such as change and support group information), and made the CMDB service-aware using Service Mapping. Which field on an Incident form is automatically populated after a CI is selected that references an appropriate support group?",
+    "options": [
+      "Assignment Group",
+      "Support Group",
+      "Approval Group",
+      "Managed by Group",
+      "Change Group"
+    ],
+    "correctAnswer": [
+      "Assignment Group"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator needs to identify which attributes have been created specifically for the Windows Server class. Which tab in the Attributes section is used?",
+    "options": [
+      "All",
+      "Child",
+      "Added",
+      "Derived"
+    ],
+    "correctAnswer": [
+      "Added"
+    ]
+  },
+  {
+    "text": "A CMDB Configuration Manager is reviewing the metrics on the CMDB Health Dashboard's Correctness Scorecard for the Server class which consists of a total of 60,000 servers in the CMDB. • For the Duplicate metric, it shows Healthy CIs/Evaluated as 59,000/60,000. • For the Orphan metric, it shows Healthy CIs/Evaluated as 45,000/50,000. Which configuration explains the difference in the scope of Server CIs (60,000 vs. 50,000) evaluated between the two metrics?",
+    "options": [
+      "The Orphan metric has a CMDB Group configured for the Server class.",
+      "The Duplicate metric has a Health Inclusion rule configured for the Server class.",
+      "The Orphan metric has a Health Inclusion rule configured for the Server class.",
+      "The Duplicate metric has a CMDB Group configured for the Server class."
+    ],
+    "correctAnswer": [
+      "The Orphan metric has a Health Inclusion rule configured for the Server class."
+    ]
+  },
+  {
+    "text": "A healthcare provider faces a critical incident affecting its patient management system. The provider needs to determine the users impacted to mitigate disruption effectively. Which CSDM-related data should they leverage?",
+    "options": [
+      "Service Offerings by Department or Location",
+      "Affected CI [task_c] related list",
+      "Application Service environment attribute",
+      "Incident history of similar CIs"
+    ],
+    "correctAnswer": [
+      "Affected CI [task_c] related list"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to remove all Linux Servers in the organization that have not been updated in six months. Which recommended action does the Administrator take in Data Manager?",
+    "options": [
+      "Create a business rule",
+      "Create a scheduled job",
+      "Create an archive policy"
+    ],
+    "correctAnswer": [
+      "Create an archive policy"
+    ]
+  },
+  {
+    "text": "The CMDB Administrator has set-up two Dynamic Reconciliation Rules within the ServiceNow Production Instance. The 'Server' class has a Dynamic Reconciliation Rule of largest value for the RAM field. The 'Windows Server' class has a Dynamic Reconciliation Rule of most reported for the RAM field. Discovery Source data: Tivoli (4096 MB), ServiceNow (4096 MB), LANDesk (2048 MB), Altiris (8192 MB). Given the above data in the Multisource CMDB, which value would be added to the CMDB for RAM for a 'Server' CI?",
+    "options": [
+      "2,048 MB",
+      "4,096 MB",
+      "8,192 MB"
+    ],
+    "correctAnswer": [
+      "8,192 MB"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator has installed a Service Graph Connector and customized a script transform. What will happen on subsequent upgrades if the default definition of the script transform is updated?",
+    "options": [
+      "The upgrade stops and reports an error.",
+      "A skipped change is created and no change is made to the script transform definition.",
+      "The Service Graph Connector upgrade refuses to start."
+    ],
+    "correctAnswer": [
+      "A skipped change is created and no change is made to the script transform definition."
+    ]
+  },
+  {
+    "text": "With CMDB 360/Multisource CMDB the Dynamic Reconciliation Rules will also be enabled. Based on the request of the management, a CMDB Administrator has to set up multiple Dynamic Reconciliation Rules. Which are available 'Dynamic Rule Types' within the 'Create Reconciliation Rule' wizard?",
+    "options": [
+      "Most Reported",
+      "Last Created",
+      "Last Updated",
+      "Smallest Value"
+    ],
+    "correctAnswer": [
+      "Most Reported",
+      "Last Updated"
+    ]
+  },
+  {
+    "text": "Configuration Management needs to ensure data quality for all CIs in the CMDB. What areas of data quality for CIs are in the CMDB Health Dashboard?",
+    "options": [
+      "Downgraded CIs",
+      "Duplicate CIs",
+      "Missing CIs",
+      "Stale CIs",
+      "Upgraded CIs"
+    ],
+    "correctAnswer": [
+      "Duplicate CIs",
+      "Stale CIs"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is asked to clean up the CMDB duplicates. What is the preferred way to manage this task?",
+    "options": [
+      "The de-duplication dashboard on the CMDB workspace",
+      "My Tasks in the Application Navigator",
+      "The de-duplication task module"
+    ],
+    "correctAnswer": [
+      "The de-duplication dashboard on the CMDB workspace"
+    ]
+  },
+  {
+    "text": "An Asset Manager wants to ensure that Asset records and CI records are kept synchronized automatically. How does the Manager do this?",
+    "options": [
+      "Ensure that the business rule to update Asset fields on change on the CI table is active",
+      "Ensure that scheduled jobs are run during off-business hours to ensure that sync happens",
+      "Ensure that the business rule to update CI fields on change on the asset table is active",
+      "Ensure one-to-one physical mapping between Asset and CI"
+    ],
+    "correctAnswer": [
+      "Ensure that the business rule to update Asset fields on change on the CI table is active",
+      "Ensure that the business rule to update CI fields on change on the asset table is active"
+    ]
+  },
+  {
+    "text": "An organization needs to maintain non-discoverable attributes, such as warranty expiration dates, for hardware CIs. These attributes are not updated by automated discovery tools. What method ensures these attributes are accurately maintained for all CIs?",
+    "options": [
+      "Use the CMDB Reconciliation Engine to update the attributes",
+      "Use a scheduled data import to update the attributes from an external source",
+      "Create a new CI class specifically for non-discoverable attributes"
+    ],
+    "correctAnswer": [
+      "Use a scheduled data import to update the attributes from an external source"
+    ]
+  },
+  {
+    "text": "An organization is changing data centers and needs to know the consequences of the planned changes. How can Application Service mapping be used as part of Change Management?",
+    "options": [
+      "To understand the business impact of CIs",
+      "To understand the physical location of CIs",
+      "To identify which devices will go offline first"
+    ],
+    "correctAnswer": [
+      "To understand the business impact of CIs"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator has built a number of Technology Management Service Offerings (Technical Service Offerings) based on Dynamic CI Groups to better maintain group alignment for the member CI. Which Groups are synced to CIs from the offering that has a relationship to a Dynamic CI Group?",
+    "options": [
+      "Approval Group",
+      "Managed by Group",
+      "Support Group",
+      "Owned by Group"
+    ],
+    "correctAnswer": [
+      "Support Group",
+      "Owned by Group"
+    ]
+  },
+  {
+    "text": "A Configuration Management Process Owner is preparing solution options for presentation to the technical governance board for ingesting custom CIs to the CMDB. The solution needs to align with best practice, minimize the cost of future work (technical debt) and ensure compliance with future upgrades. Which solutions accomplish this?",
+    "options": [
+      "Repurposing a base CI class and rename attributes, as required",
+      "Extending an existing Asset class table to accommodate the custom CI class attributes",
+      "Extending an existing CI class table to accommodate the custom CI class attributes",
+      "Installing or upgrading the 'CMDB CI Class Models' store application to find a suitable existing CI class accommodating any new attributes"
+    ],
+    "correctAnswer": [
+      "Extending an existing CI class table to accommodate the custom CI class attributes",
+      "Installing or upgrading the 'CMDB CI Class Models' store application to find a suitable existing CI class accommodating any new attributes"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants only the CIs of Principal Classes to appear in CI reference fields, for example the CI reference fields accessible from an Incident Form. Where does the CMDB Administrator designate Principal Classes?",
+    "options": [
+      "CMDB Data Manager",
+      "CI Class Manager",
+      "System Properties",
+      "CMDB Workspace"
+    ],
+    "correctAnswer": [
+      "CI Class Manager"
+    ]
+  },
+  {
+    "text": "A new custom class is needed to reflect a new application being managed in the CMDB. Which roles are minimally needed to add this custom CI class?",
+    "options": [
+      "data_classification_admin and personalize_dictionary",
+      "cmdb_inst_admin and personalize_form",
+      "itil_admin and personalize_form",
+      "sn_cmdb_admin and personalize_dictionary"
+    ],
+    "correctAnswer": [
+      "sn_cmdb_admin and personalize_dictionary"
+    ]
+  },
+  {
+    "text": "User endpoint devices are imported into the CMDB and populate the 'Assigned to' [assigned_to] field on the Computer [cmdb_ci_computer] CI. The Asset team puts in a request for the Configuration Analysts to populate the 'Assigned to' field on the related Asset. What action does a Configuration Analyst take to achieve this in an automated way?",
+    "options": [
+      "Configure a business rule on the computer table to use a script to populate the 'Assigned to' field on the asset based on insert or update in the computer class 'Assigned to' field",
+      "Use the Asset:CI Field Mapping module to create a new rule to replicate the 'Assigned to' value between the asset and associated CI",
+      "Hide the 'Assigned to' field on the asset record and create a new field that dot walks to the related CI to get the 'Assigned to' value"
+    ],
+    "correctAnswer": [
+      "Use the Asset:CI Field Mapping module to create a new rule to replicate the 'Assigned to' value between the asset and associated CI"
+    ]
+  },
+  {
+    "text": "What is the relationship between an application and a server?",
+    "options": [
+      "Application > Runs on::Runs > Server",
+      "Application > Runs::Runs On > Server",
+      "Application > Used by::Uses > Server",
+      "Application > Uses::Used by > Server"
+    ],
+    "correctAnswer": [
+      "Application > Runs::Runs On > Server"
+    ]
+  },
+  {
+    "text": "The CMDB Configuration Manager is using the CI Class Manager to manage the group ownership of CI classes and needs to leverage the ownership value specified in the CI Class Manager. When configuring a CMDB Data Manager policy, which group reference field should be set?",
+    "options": [
+      "Managed By Group",
+      "Approval Group",
+      "Support Group",
+      "Change Group"
+    ],
+    "correctAnswer": [
+      "Managed By Group"
+    ]
+  },
+  {
+    "text": "The CMDB Administrator group aims to display meaningful results on the CMDB Health Dashboard Compliance Scorecard for server records that are not on the latest patch. What must be configured to achieve this goal?",
+    "options": [
+      "Technical Service Offerings, Dynamic CI Groups, CMDB Groups",
+      "Certification Filter, Certification Template, Audit",
+      "Stale, Orphan, Duplicate",
+      "Certification Policies, Data Filters, Scheduled Jobs"
+    ],
+    "correctAnswer": [
+      "Certification Policies, Data Filters, Scheduled Jobs"
+    ]
+  },
+  {
+    "text": "A healthcare provider faces a critical incident affecting its patient management system. The provider needs to determine the users impacted to mitigate disruption effectively. Which CSOM-related data should they leverage?",
+    "options": [
+      "Affected CI [task_ci] related list",
+      "Service Offerings by Department or Location",
+      "Incident history of similar CIs",
+      "Application Service environment attribute"
+    ],
+    "correctAnswer": [
+      "Affected CI [task_ci] related list"
+    ]
+  },
+  {
+    "text": "The CMDB Administrator has set-up two Dynamic Reconciliation Rules within the ServiceNow Production Instance. The 'Server' class has a Dynamic Reconciliation Rule of largest value for the RAM field. The 'Windows Server' class has a Dynamic Reconciliation Rule of most reported for the RAM field. Discovery Source data: Tivoli (4096 MB), ServiceNow (4096 MB), Altiris (8192 MB). Given the above data in the Multisource CMDB, which value would be added to the CMDB for RAM for a 'Server' CI?",
+    "options": [
+      "4,096 MB",
+      "2,048 MB",
+      "8,192 MB"
+    ],
+    "correctAnswer": [
+      "8,192 MB"
+    ]
+  },
+  {
+    "text": "Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "options": [
+      "Automates the enforcement of relationship rules between CIs in the CMDB",
+      "Encrypts archived records for enhanced security",
+      "Automates the archival and deletion of records based on retention policies"
+    ],
+    "correctAnswer": [
+      "Automates the enforcement of relationship rules between CIs in the CMDB"
+    ]
+  },
+  {
+    "text": "The CMDB Configuration Management team has successfully developed a healthy and trusted CMDB. They have integrated discovered infrastructure data, accurately referenced non-discoverable data (such as change and support group information), and made the CMDB service-aware using Service Mapping. Which field on an Incident form is automatically populated after a CI is selected that references an appropriate support group?",
+    "options": [
+      "Support Group",
+      "Change Group",
+      "Managed by Group",
+      "Assignment Group",
+      "Approval Group"
+    ],
+    "correctAnswer": [
+      "Assignment Group"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to improve data quality related to the CSOM. Which action should the Administrator take to meet this goal?",
+    "options": [
+      "Use the CSOM Data Foundations Dashboard",
+      "Use the default configured CMDB Health Dashboard",
+      "Start the ServiceNow Health Scan"
+    ],
+    "correctAnswer": [
+      "Use the CSOM Data Foundations Dashboard"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator wants to run the Services Have Owners Identified playbook to remediate the issues shown in the CMDB Data Foundations Dashboard. Which remediation plays would be used?",
+    "options": [
+      "Fix Data",
+      "Govern Data",
+      "Report Data",
+      "Analyze Data"
+    ],
+    "correctAnswer": [
+      "Fix Data",
+      "Govern Data"
+    ]
+  },
+  {
+    "text": "A Platform Data Owner wants to improve data quality with a few reconciliation rules across the five discovery sources that are being used. The Data Owner knows the best option is to include CMDB 360/Multisource CMDB to manage and monitor discovery sources, but the company currently does not have a license for ITOM Discovery that is required for CMDB 360/Multisource CMDB. What can the Data Owner do in this case?",
+    "options": [
+      "The IRE reconciliation rules can use discovery sources regardless of CMDB 360 being enabled.",
+      "CMDB 360/Multisource is a platform product that can be used immediately.",
+      "ITOM Discovery needs to be purchased to take advantage of the multisource IRE Rules."
+    ],
+    "correctAnswer": [
+      "The IRE reconciliation rules can use discovery sources regardless of CMDB 360 being enabled."
+    ]
+  },
+  {
+    "text": "A CMDB Administrator needs to import external data into the CMDB. As the CMDB Administrator wants to reduce the risk for creating duplicates and to update information from unauthorized sources, it has to be ensured that the Identification and Reconciliation API will not be bypassed. What is the recommended method to import data into the CMDB utilizing the Identification and Reconciliation API?",
+    "options": [
+      "IntegrationHub ETL",
+      "Table API (REST API or SOAP API)",
+      "Import Sets and Transform Maps"
+    ],
+    "correctAnswer": [
+      "IntegrationHub ETL"
+    ]
+  },
+  {
+    "text": "A Change Manager wants to gain value from CSDM. How will the Change Management process benefit from CSDM?",
+    "options": [
+      "Understand the impact of the change on services",
+      "Identify blackout windows for the change",
+      "Route the change dynamically",
+      "Determine the root cause of the change issue"
+    ],
+    "correctAnswer": [
+      "Understand the impact of the change on services",
+      "Route the change dynamically"
+    ]
+  },
+  {
+    "text": "Yesterday an Apache Web Server CI was discovered as part of Service Mapping. Today, the application owner upgraded Apache to a different version and reran discovery of the service. What will happen in the CMDB?",
+    "options": [
+      "The Apache Web Server CI will be reclassified as a Web Server CI.",
+      "A duplication error will occur.",
+      "A new Apache Web Server CI is created.",
+      "The existing Apache Web Server CI will be reconciled and its version will be updated."
+    ],
+    "correctAnswer": [
+      "The existing Apache Web Server CI will be reconciled and its version will be updated."
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is asked to clean up the CMDB duplicates. What is the preferred way to manage this task?",
+    "options": [
+      "My Tasks in the Application Navigator",
+      "The de-duplication dashboard on the CMDB workspace",
+      "The de-duplication task module"
+    ],
+    "correctAnswer": [
+      "The de-duplication task module"
+    ]
+  },
+  {
+    "text": "A Configuration Management Governance team is transitioning from utilizing legacy CMDB status fields to CSDM life cycle status fields. Which table can be modified?",
+    "options": [
+      "Life Cycle Mapping [life_cycle_mapping]",
+      "Life Cycle Stage Status [life_cycle_stage_status]",
+      "Life Cycle Stages [life_cycle_stage]",
+      "Life Cycle Controls [life_cycle_control]"
+    ],
+    "correctAnswer": [
+      "Life Cycle Mapping [life_cycle_mapping]"
+    ]
+  },
+  {
+    "text": "The Configuration Manager is preparing the justification to utilize the CMDB Data Foundations Dashboard. Which benefits align with the usage of this dashboard?",
+    "options": [
+      "It helps detect and eliminate duplicate records in the CMDB.",
+      "It enables monitoring and tracking of CMDB health over time.",
+      "It provides actionable insights to improve data quality and completeness.",
+      "It automates the approval process for change management."
+    ],
+    "correctAnswer": [
+      "It enables monitoring and tracking of CMDB health over time.",
+      "It provides actionable insights to improve data quality and completeness."
+    ]
+  },
+  {
+    "text": "A CMDB Administrator would like to minimize stale CIs in the CMDB. Which CMDB Health Dashboard scorecard displays this information?",
+    "options": [
+      "Correctness",
+      "Completeness",
+      "Compliance"
+    ],
+    "correctAnswer": [
+      "Correctness"
+    ]
+  },
+  {
+    "text": "Configuration Management requires an accurate inventory of devices to be reflected in the CMDB. Which are common use cases for using Agent Client Collector (ACC)?",
+    "options": [
+      "Servers in the data center",
+      "Devices in secure environments",
+      "Network devices in the DMZ",
+      "Devices that intermittently connect to the network"
+    ],
+    "correctAnswer": [
+      "Devices in secure environments",
+      "Devices that intermittently connect to the network"
+    ]
+  },
+  {
+    "text": "A CMDB Administrator is implementing a Vulnerability Response or Security Incident Response and needs to ensure customers have enough context to estimate risk and set task priorities. Which Get Well Playbook from the CSDM Data Foundations Dashboard helps with this?",
+    "options": [
+      "Locations without a Parent Location",
+      "Named Product Models without Product Owners",
+      "Application Services with Business Application Relationships",
+      "Percentage of Custom Status Values for CI Life Cycle Stages"
+    ],
+    "correctAnswer": [
+      "Application Services with Business Application Relationships"
+    ]
+  },
+  {
+    "text": "A Change Manager aims to streamline ITSM processes by automatically populating fields on the Change form when a CI is selected. The Configuration Management team is working to ensure that the Change Group field is populated for all managed CIs. As a result, which base system field on the Incident form will be automatically populated after selecting a CI?",
+    "options": [
+      "Managed by group",
+      "Approval group",
+      "Assignment group",
+      "Change group"
+    ],
+    "correctAnswer": [
+      "Assignment group"
+    ]
+  },
+  {
+    "text": "According to the Common Service Data Model (CSDM), a server team is requesting a catalog item be created for infrastructure upgrade requests. Which role is involved in initiating the request and defining requirements?",
+    "options": [
+      "Enterprise Architect",
+      "Technology Service Owners",
+      "Application Service Owners"
+    ],
+    "correctAnswer": [
+      "Technology Service Owners"
+    ]
+  },
+  {
+    "text": "A Platform Owner is collaborating with stakeholders in the manufacturing industry to align their CIs with the CSOM 5 framework. They need to map production line monitoring systems to the appropriate CSOM 5 domain. Which CSOM 5 domain does the Platform Owner use?",
+    "options": [
+      "Service Delivery (Manage Technical)",
+      "Foundation",
+      "Build and Integration (Build)",
+      "Design and Planning (Design)",
+      "Service Consumption (Sell/Consume)"
+    ],
+    "correctAnswer": [
+      "Service Delivery (Manage Technical)"
+    ]
+  },
+  {
+    "text": "In a company there is a need to understand the CSOM maturity level needed. Different stakeholders listed a number of use cases that they expect over time. Which use case requires Information Objects?",
+    "options": [
+      "The Event Operations team wants to automate their events into incident for operational actions.",
+      "The Asset Management team wants to understand the asset life cycle compliancy in a Business Application context.",
+      "The SecOps team wants to understand the operational risk in the Business Application context.",
+      "The Business Service Management team wants to understand the operational impact for their consumer parties.",
+      "The Customer Service team wants to onboard proactive case management."
+    ],
+    "correctAnswer": [
+      "The Asset Management team wants to understand the asset life cycle compliancy in a Business Application context."
+    ]
+  }
+]
