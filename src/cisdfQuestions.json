@@ -942,7 +942,7 @@
     ]
   },
   {
-    "text": "A CMDB Administrator is implementing a Vulnerability Response or Security Incident Response and needs to ensure customers have enough context to estimate risk and set task priorities. Which Get Well Playbook from the CSOM Data Foundations Dashboard helps with this?",
+    "text": "A CMDB Administrator is implementing a Vulnerability Response or Security Incident Response and needs to ensure customers have enough context to estimate risk and set task priorities. Which Get Well Playbook from the CSDM Data Foundations Dashboard helps with this?",
     "options": [
       "Percentage of Custom Status Values for CI Life Cycle Stages",
       "Named Product Models without Product Owners",
@@ -1357,14 +1357,14 @@
     ]
   },
   {
-    "text": "A CMDB Administrator wants to improve data quality related to the CSOM. Which action should the Administrator take to meet this goal?",
+    "text": "A CMDB Administrator wants to improve data quality related to the CSDM. Which action should the Administrator take to meet this goal?",
     "options": [
-      "Use the CSOM Data Foundations Dashboard",
+      "Use the CSDM Data Foundations Dashboard",
       "Use the default configured CMDB Health Dashboard",
       "Start the ServiceNow Health Scan"
     ],
     "correctAnswer": [
-      "Use the CSOM Data Foundations Dashboard"
+      "Use the CSDM Data Foundations Dashboard"
     ]
   },
   {
@@ -1512,7 +1512,7 @@
     ]
   },
   {
-    "text": "A Platform Owner is collaborating with stakeholders in the manufacturing industry to align their CIs with the CSOM 5 framework. They need to map production line monitoring systems to the appropriate CSOM 5 domain. Which CSOM 5 domain does the Platform Owner use?",
+    "text": "A Platform Owner is collaborating with stakeholders in the manufacturing industry to align their CIs with the CSDM 5 framework. They need to map production line monitoring systems to the appropriate CSDM 5 domain. Which CSDM 5 domain does the Platform Owner use?",
     "options": [
       "Service Delivery (Manage Technical)",
       "Foundation",
@@ -1525,7 +1525,7 @@
     ]
   },
   {
-    "text": "In a company there is a need to understand the CSOM maturity level needed. Different stakeholders listed a number of use cases that they expect over time. Which use case requires Information Objects?",
+    "text": "In a company there is a need to understand the CSDM maturity level needed. Different stakeholders listed a number of use cases that they expect over time. Which use case requires Information Objects?",
     "options": [
       "The Event Operations team wants to automate their events into incident for operational actions.",
       "The Asset Management team wants to understand the asset life cycle compliancy in a Business Application context.",
