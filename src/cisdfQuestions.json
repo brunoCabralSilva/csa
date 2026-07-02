@@ -1217,17 +1217,6 @@
     ]
   },
   {
-    "text": "An organization needs to maintain non-discoverable attributes, such as warranty expiration dates, for hardware CIs. These attributes are not updated by automated discovery tools. What method ensures these attributes are accurately maintained for all CIs?",
-    "options": [
-      "Use the CMDB Reconciliation Engine to update the attributes",
-      "Use a scheduled data import to update the attributes from an external source",
-      "Create a new CI class specifically for non-discoverable attributes"
-    ],
-    "correctAnswer": [
-      "Use a scheduled data import to update the attributes from an external source"
-    ]
-  },
-  {
     "text": "An organization is changing data centers and needs to know the consequences of the planned changes. How can Application Service mapping be used as part of Change Management?",
     "options": [
       "To understand the business impact of CIs",
@@ -1463,18 +1452,6 @@
     "correctAnswer": [
       "Devices in secure environments",
       "Devices that intermittently connect to the network"
-    ]
-  },
-  {
-    "text": "A CMDB Administrator is implementing a Vulnerability Response or Security Incident Response and needs to ensure customers have enough context to estimate risk and set task priorities. Which Get Well Playbook from the CSDM Data Foundations Dashboard helps with this?",
-    "options": [
-      "Locations without a Parent Location",
-      "Named Product Models without Product Owners",
-      "Application Services with Business Application Relationships",
-      "Percentage of Custom Status Values for CI Life Cycle Stages"
-    ],
-    "correctAnswer": [
-      "Application Services with Business Application Relationships"
     ]
   },
   {
