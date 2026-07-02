@@ -1597,18 +1597,6 @@
     ]
   },
   {
-    "text": "A Configuration Manager needs to leverage a policy type to automate the creation and assignment of tasks to validate the existence of CIs. Which policy type should be used?",
-    "options": [
-      "Delete",
-      "Certification",
-      "Attestation",
-      "Retire"
-    ],
-    "correctAnswer": [
-      "Attestation"
-    ]
-  },
-  {
     "text": "An Asset Manager wants to ensure that Asset records and CI records are kept synchronized automatically. How does the Manager do this?",
     "options": [
       "Ensure that the business rule to update CI fields on change on the asset table is active",
