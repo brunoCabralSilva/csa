@@ -1179,17 +1179,6 @@
     ]
   },
   {
-    "text": "The CMDB Administrator has set-up two Dynamic Reconciliation Rules within the ServiceNow Production Instance. The 'Server' class has a Dynamic Reconciliation Rule of largest value for the RAM field. The 'Windows Server' class has a Dynamic Reconciliation Rule of most reported for the RAM field. Discovery Source data: Tivoli (4096 MB), ServiceNow (4096 MB), LANDesk (2048 MB), Altiris (8192 MB). Given the above data in the Multisource CMDB, which value would be added to the CMDB for RAM for a 'Server' CI?",
-    "options": [
-      "2,048 MB",
-      "4,096 MB",
-      "8,192 MB"
-    ],
-    "correctAnswer": [
-      "8,192 MB"
-    ]
-  },
-  {
     "text": "A CMDB Administrator has installed a Service Graph Connector and customized a script transform. What will happen on subsequent upgrades if the default definition of the script transform is updated?",
     "options": [
       "The upgrade stops and reports an error.",
@@ -1678,17 +1667,6 @@
     ],
     "correctAnswer": [
       "Archive Policies"
-    ]
-  },
-  {
-    "text": "A Configuration Manager wants to use the Unified Map. Where is it accessed?",
-    "options": [
-      "CMDB Data Manager",
-      "CMDB Workspace",
-      "CI Class Manager"
-    ],
-    "correctAnswer": [
-      "CMDB Workspace"
     ]
   },
   {
